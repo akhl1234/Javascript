@@ -16,3 +16,11 @@ console.log(numbr);
 let value = 0;
 let bool = Boolean(value);
 console.log(bool); 
+
+// remeber this thing in your mind---
+console.log("hello",+2);
+console.log("12"+4+6)
+console.log(1+"2"+"8")
+console.log(1.8+1.2+9)
+console.log(6+"abc")
+console.log(5+6+"24")
