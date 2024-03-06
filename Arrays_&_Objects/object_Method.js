@@ -1,12 +1,11 @@
-const person = {
-  firstName: "Virat",
-  lastName: "Kohli",
-  fullName() {
-    return `${this.firstName} ${this.lastName}`;
+// Define object method using add calculator--
+
+const calculator = {
+  add: function (a, b) {
+    return a + b;
   },
 };
-
-console.log(person.fullName());
+console.log(calculator.add(25, 3.5));
 
 // Define a player object
 const player = {

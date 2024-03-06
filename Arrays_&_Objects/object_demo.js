@@ -12,9 +12,10 @@ const car = {
   Origin: "India",
   Year: 2023,
 };
+car.Number = 1521; // Adding property
 console.log(car);
 
 //Accessing Object Properties objectName["propertyName"] or also use curly braces lets explore both of them.
-console.log(car.color);
-console.log(car["Model"]);
-console.log(car["Origin"]); // this one can't acces by using dot notation ***remeber***-
+console.log(car.color); // this one is dot notation.
+console.log(car["Number"]);
+console.log(car["Origin"]); // Bracket Notation ***remeber***-
