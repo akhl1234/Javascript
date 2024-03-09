@@ -22,3 +22,25 @@ function PowerThis() {
 }
 
 PowerThis();
+
+// Arrow Function--
+// Syntax: and their Examples
+const arrowFunction = () => {
+  let method = "Arrow-Functions";
+  console.log(method);
+};
+
+arrowFunction();
+
+const exampleDescription =
+  "In this example, we will square some numbers using arrow functions.";
+
+const squareNumber = (num) => {
+  return num * num;
+};
+
+console.log(squareNumber(5));
+
+// try another method using implicit return it helps you write less code;
+let squareNumbers = (numbers) => numbers * numbers;
+console.log(squareNumbers(2.5));
