@@ -90,3 +90,14 @@ const DiscountedCloth = Cloth.reduce((discounted, prod) => {
 }, []);
 
 // console.log(DiscountedCloth);
+
+const data = [
+  ["name", "Alice"],
+  ["age", 30],
+  ["city", "New York"],
+];
+
+const personObject = data.reduce((acc, [key, value]) => {
+  acc[key] = value;
+  return acc;
+}, {});
