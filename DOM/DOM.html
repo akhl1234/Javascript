@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <div id="Dom-method">
+      <h2>Selecting Elements</h2>
+      <ul>
+        <li>getElementById(id)</li>
+        <li>getElementsByClassName(className)</li>
+        <li>getElementsByTagName(tagName)</li>
+        <li>querySelector(selector)</li>
+        <li>querySelectorAll(selector)</li>
+      </ul>
+
+      <h2>Manipulating Elements</h2>
+      <ul>
+        <li>innerHTML</li>
+        <li>textContent</li>
+        <li>setAttribute(attribute, value)</li>
+        <li>getAttribute(attribute)</li>
+        <li>appendChild(node)</li>
+        <li>removeChild(node)</li>
+        <li>createElement(element)</li>
+        <li>createTextNode(text)</li>
+      </ul>
+
+      <h2>Styling Elements</h2>
+      <ul>
+        <li>style.property = value</li>
+        <li>classList.add(className)</li>
+        <li>classList.remove(className)</li>
+        <li>classList.toggle(className)</li>
+      </ul>
+
+      <h2>Event Handling</h2>
+      <ul>
+        <li>addEventListener(event, function)</li>
+        <li>removeEventListener(event, function)</li>
+        <li>event.preventDefault()</li>
+        <li>event.stopPropagation()</li>
+      </ul>
+    </div>
+    <h1 style="color: aqua">
+      Select this content by using document.querySelector in js
+    </h1>
+    <h2 id="H22">
+      The Document Object Model we can change by using javascript--
+    </h2>
+    <h3 class="styling-css">
+      the style will be applied by using css method in js
+    </h3>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <h4 id="text-change">
+      When you click on this the content will be changed by using event
+      listeners
+    </h4>
+
+    <div id="Light"></div>
+    <button>Click To on off</button>
+
+    <style>
+      #Light {
+        width: 250px;
+        height: 250px;
+        border-radius: 51%;
+        border: 3px dashed red;
+      }
+
+      button {
+        margin: 30px 40px;
+      }
+
+      button:hover {
+        color: aquamarine;
+      }
+    </style>
+
+    <script src="DOM.js"></script>
+  </body>
+</html>
