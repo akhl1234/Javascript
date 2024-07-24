@@ -5,8 +5,6 @@ Welcome to the "Learning JavaScript" repository! Here, we embark on a journey to
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Installation](#installation)
-- [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
 - [License](#license)
 
